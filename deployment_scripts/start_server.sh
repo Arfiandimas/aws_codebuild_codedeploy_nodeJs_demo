@@ -1,3 +1,3 @@
 #!/bin/bash
-cd /home/ubuntu/aws_codebuild_codedeploy_nodeJs_demo
+cd /home/ubuntu/app
 NODE_ENV=production pm2 start index.js -f

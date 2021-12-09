@@ -1,5 +1,5 @@
 #!/bin/bash
-FILE=/home/ubuntu/aws_codebuild_codedeploy_nodeJs_demo/index.js
+FILE=/home/ubuntu/app/index.js
 if test -f "$FILE"; then
    echo "$FILE exists"
    cd /home/ubuntu/
@@ -10,5 +10,5 @@ else
     echo "$FILE does not exist."
 fi
 cd /home/ubuntu/
-sudo rm -rf aws_codebuild_codedeploy_nodeJs_demo
-sudo mkdir aws_codebuild_codedeploy_nodeJs_demo
+sudo rm -rf app
+sudo mkdir app
